@@ -1,243 +1,121 @@
-# Awesome-IT-Operations-Systems-Management
+# Awesome IT Operations & Systems Management 🛠️⚡
 
-## Top IT Operations & Systems Management Ecosystem
+![Awesome IT Operations Banner](assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-IT-Operations-Systems-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-IT-Operations-Systems-Management?style=for-the-badge&color=gold" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-IT-Operations-Systems-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-IT-Operations-Systems-Management?style=for-the-badge&color=blue" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-IT-Operations-Systems-Management/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-IT-Operations-Systems-Management?style=for-the-badge&color=red" alt="GitHub Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-IT-Operations-Systems-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🚀 Top IT Operations & Systems Management Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**A Curated List of SaaS Products & Open-Source GitHub Projects for ITOM, Unified Endpoint Management (UEM), Remote Monitoring & Management (RMM), and Patch Automation**  
 
-*Focused on Endpoint Management, Patch Automation & Self-Hosted IT Operations*  
+*Focused on Endpoint Management, Patch Automation, RMM, ITSM, CMDB, and Self-Hosted IT Operations*  
 
-**Last updated: October 2026**
+**Last updated: October 2026** 📅
 
+Welcome to the **Awesome IT Operations & Systems Management** resource repository! This comprehensive guide tracks notable commercial **IT Operations Management (ITOM)** SaaS platforms and high-star **open-source infrastructure tools** that monitor, patch, configure, and secure endpoints and servers across hybrid multi-cloud environments — from cloud-managed enterprise device fleets to digital sovereign self-hosted automation stacks. 🌐💻
 
-
-This repository tracks notable **commercial IT operations and systems management platforms** and **open-source projects** that monitor, patch, configure, and secure endpoints and servers across hybrid environments — from cloud-managed device fleets to self-hosted automation platforms.
-
-
-
-**Examples** include AWS Systems Manager, ServiceNow ITOM, Datadog, Microsoft Intune, ManageEngine Desktop Central, NinjaOne, Ivanti Neurons, Tanium, SolarWinds Patch Manager, and Automox (the category leaders).
-
-
-
-**Open-source emphasis**: IT operations and systems management is anchored by **Zabbix** and **Ansible** as the most widely deployed open-source tools for monitoring and automation . **OpenUEM** delivers a modern unified endpoint manager with a SourceForge Rising Star award . **OCO-Agent** provides self-hosted cross-platform inventory and software deployment . **Linux Central Management** brings fleet-wide Linux patching with CVE reporting . **Sentinella** offers cross-platform system monitoring with TUI and web dashboards . **MeshCentral** enables remote management and control. **GLPI** and **iTop** provide integrated IT asset and service management . This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[ServiceNow ITOM](https://www.servicenow.com/products/it-operations-management.html)**  
-
-  **The enterprise standard for IT operations management** — federates signals from systems, services, and applications for service mapping and unknown problem detection . **AIOps-powered event management** reduces alert noise by aggregating and correlating events from monitoring tools, eliminating duplications and surfacing actionable alerts . **Dynamic service mapping** with Common Services Data Model (CSDM) provides business context across hybrid and cloud environments . **Discovery and Service Mapping** automatically map end-to-end service dependencies in real time . **Change impact analysis** prevents self-induced incidents by showing downstream effects of planned changes . **Best for large enterprises with complex IT operations** .
-
-
-
-- **[Tanium Autonomous IT Platform](https://www.tanium.com/)**  
-
-  **Real-time endpoint management and security platform** — patented **Linear Chain Architecture** queries millions of endpoints peer-to-peer, delivering answers in seconds with reduced network overhead . **Zero sampling** — comprehensive endpoint coverage with no stale scans . **Single-agent architecture** consolidates 3-7 endpoint tools into one agent handling endpoint management, exposure management, and security operations . **AI-powered autonomous remediation** with predictive risk scoring . **2026 Gartner MQ Leader** for endpoint management, positioned furthest in Completeness of Vision . **Real-world impact**: ABB achieved 97% endpoints in compliance after a 30-day patch cycle, up from 13% . **Best for enterprises needing real-time endpoint visibility at scale** .
-
-
-
-- **[Automox](https://www.automox.com/)**  
-
-  **Cloud-native IT automation platform for modern organizations** — agent-based with lightweight agents on Windows, macOS, and Linux . **630+ third-party applications patched automatically**, versus WSUS which only updates Microsoft software . **Worklets** — custom automations powered by PowerShell and bash for configuration, compliance, and remediation . **Remote and hybrid workforce support** — patches automatically when devices connect to the internet, no VPN required . **Real-world impact**: 280% more patches applied per FTE, 50% reduction in time spent patching, 4-month average payback period . **Best for organizations wanting simple, effective patch automation** .
-
-
-
-- **[AWS Systems Manager](https://aws.amazon.com/systems-manager/)**  
-
-  **AWS's unified operations platform** — view and control AWS infrastructure at scale . **Automation, patch management, and run command** for operational tasks . **Best for AWS-native infrastructure management** .
-
-
-
-- **[Datadog](https://www.datadoghq.com/)**  
-
-  **Observability and security platform** — infrastructure monitoring, APM, logs, and security signals . **Best for full-stack observability** .
-
-
-
-- **[Microsoft Intune](https://www.microsoft.com/microsoft-intune)**  
-
-  **Microsoft's cloud-based endpoint management** — device configuration, compliance, and app deployment . **Bundled with Microsoft 365 E3/E5** . **Best for Microsoft-centric organizations** .
-
-
-
-- **[NinjaOne](https://www.ninjaone.com/)**  
-
-  **Unified IT operations platform** — RMM, patching, backup, and remote control in one console . **Best for MSPs and IT teams** .
-
-
-
-- **[Ivanti Neurons](https://www.ivanti.com/)**  
-
-  **ITSM and endpoint management** — service catalog with automation and self-service . **Best for Ivanti ecosystem users** .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Endpoint Management Platforms
-
-
-
-- **[OpenUEM](https://github.com/open-uem)**  
-
-  **Open-Source Unified Endpoint Manager with self-hosted architecture**, Apache-2.0 licensed . **Manage IT assets thanks to agents and a clean, concise web UI** . **Designed from the ground up to be easily installed** . **Recognized with a SourceForge Rising Star award** in January 2026 for significant milestones in downloads and user engagement . **Components include console (Go web UI), agents for Windows/Linux/macOS (Go), NATS message exchange, and certificate manager** . **Best for self-hosted unified endpoint management** .
-
-
-
-- **[OCO-Agent (Open Computer Orchestration)](https://github.com/schorschii/oco-agent)**  
-
-  **Self-hosted desktop and server inventory, software deployment and Mobile Device Management**, open-source . **Manages Linux, macOS, Windows machines plus Android and iOS** via a comfortable web interface . **Software deployment features, user-computer logon overview, policy management, and recognized software inventory** . **Focus on easy usability (UI/UX), simplicity (minimal external dependencies), and performance (manage many devices with minimal server resources)** . **Client initiates connection to server** — no additional port needs to be opened . **Digital sovereign operation without vendor lock-in** . **Best for cross-platform endpoint management** .
-
-
-
-### Monitoring & Patch Management
-
-
-
-- **[Zabbix](https://github.com/zabbix/zabbix)**  
-
-  **The most widely deployed open-source monitoring platform**, GPL-2.0 licensed . **Smart and fast automation with many platform support** . **Problem threshold definition with rapid detection** . **Data visualization in multiple ways** . **Free version provides broad functionality but requires expertise for setup and maintenance** . **Best for comprehensive infrastructure monitoring** .
-
-
-
-- **[Linux Central Management](https://github.com/impsik/linux-central-management)**  
-
-  **Self-hosted Linux server and patch management platform**, open-source (0.1.0 beta) . **Monitor Linux fleet, review security updates and CVE reports, manage services and SSH access** . **Ansible automation from one web dashboard** . **Go fleet-agent service runs on each managed host** . **PostgreSQL database and management data stay on your infrastructure** . **Features**: host inventory and health, Linux patch management with security campaigns, CVE vulnerability reporting, systemd service management, firewall management, Ansible automation with scheduled jobs, role-based access with AD/LDAP/OIDC, and privileged-user MFA . **Best for Linux fleet administration** .
-
-
-
-- **[Sentinella](https://pypi.org/project/sentinella-monitor/)**  
-
-  **Cross-platform system monitor with TUI, web dashboard, and remote monitoring**, open-source in Python . **Interactive TUI dashboard** powered by Textual — CPU, memory, disk, network, processes, sensors, and containers . **Modern web dashboard** with real-time browser interface via FastAPI and WebSockets, 100% offline/air-gapped vendorized assets, dynamic thresholds, and authentication . **Remote monitoring agent** — monitor hosts securely via RemoteCollector over HTTP/WebSockets . **Container support** for Docker and LXC with streaming bounded output readers . **Security-first**: constant-time API key verification, security headers, CSV formula-injection sanitization, and permission warnings for config files . **Best for cross-platform system monitoring** .
-
-
-
-- **[Ansible](https://github.com/ansible/ansible)**  
-
-  **The standard for IT automation**, GPL-3.0 licensed . **Agentless configuration management and orchestration** . **System state preservation for smooth failure recovery** . **Automated and reliable deployment to production environments** . **The foundation for many IT operations workflows** . **Best for configuration automation** .
-
-
-
-### Remote Management & Control
-
-
-
-- **[MeshCentral](https://github.com/Ylianst/MeshCentral)**  
-
-  **Complete web-based remote monitoring and management platform**, Apache-2.0 licensed . **Remote desktop control, terminal access, file transfer, and Wake-on-LAN** . **Agent-based architecture supporting Windows, Linux, macOS, and mobile devices** . **Self-hosted with full data sovereignty** . **Best for remote endpoint management** .
-
-
-
-### IT Asset & Service Management
-
-
-
-- **[GLPI](https://github.com/glpi-project/glpi)**  
-
-  **Free Asset and IT Management Software package**, GPL-3.0 licensed . **ITIL Service Desk, licenses tracking, and software auditing** . **Service catalog with self-service portal** . **Financial tracking of software costs, contracts, and vendor contacts** . **Built-in reports on software usage, costs, and compliance gaps** . **Docker deployment and frequent updates** . **Trade-offs**: APM-specific views require configuration; discovery depends on plugins; interface can be intimidating for new users . **Best for integrated ITAM and service desk** .
-
-
-
-- **[iTop](https://github.com/Combodo/iTop)**  
-
-  **Complete open-source ITIL web-based service management tool with CMDB**, GPL-3.0 licensed . **Fully customizable CMDB, helpdesk, service catalog, and document management** . **CMDB-driven inventory** linking applications, middleware, hardware, and networks in a connected graph . **Lifecycle and impact analysis** — simulate impact of application retirement before it happens . **Service catalog** groups applications into business services . **Trade-offs**: UI feels dated compared to modern tools; ITSM features may be overkill if only APM is needed; data model customization requires development skills . **Best for ITSM with application portfolio management** .
-
-
-
-- **[CMDBuild](https://www.cmdbuild.org/)**  
-
-  **Open-source platform for building custom CMDB and asset management applications**, open-source . **Graphical workflow engine to define exact application lifecycle** . **Flexible data model captures any attribute needed** . **Best for custom CMDB requirements** .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **CloudHub** — Monitoring and management system derived from Chronograf with infrastructure topology maps, SaltStack automation, and multi-cloud support (AWS, GCE, OpenStack, Kubernetes, VMware) .
-
-- **Vulnerability-Scanner-SIEM-Dashboard** — Automated vulnerability assessment and patch management engine with interactive SOC SIEM dashboard in Python .
-
-- **DefGuard** — True enterprise WireGuard with MFA/2FA and SSO .
-
-- **OPNsense** — Open source FreeBSD-based firewall and router with traffic shaping and VPN .
-
-- **pfSense CE** — Free network firewall distribution based on FreeBSD .
-
-- **IPFire** — Free network firewall distribution with easy-to-use web management console .
-
-- **Consul** — Service discovery, monitoring, and configuration .
-
-- **etcd** — Distributed K/V-Store for shared configuration and service discovery .
-
-
-
-**Frameworks for building custom IT operations and systems management solutions**: Combine **Zabbix** for comprehensive infrastructure monitoring with threshold-based alerting . Use **Ansible** for agentless configuration automation and deployment . Deploy **OpenUEM** or **OCO-Agent** for unified endpoint management across Windows, macOS, and Linux . Choose **Linux Central Management** for fleet-wide Linux patching with CVE reporting and Ansible automation . Integrate **Sentinella** for cross-platform system monitoring with TUI and web dashboards . Use **MeshCentral** for remote management and control . Deploy **GLPI** or **iTop** for integrated IT asset and service management . Note that true enterprise IT operations with managed infrastructure, AI-powered autonomous remediation, and vendor-supported SLAs (ServiceNow ITOM, Tanium, Automox) remains primarily commercial territory; open-source stacks provide strong monitoring, automation, and endpoint management foundations that require integration for complete IT operations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- IT operations platforms handle sensitive infrastructure access and may process operational data. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations.
-
-- **Open-source IT operations require operational responsibility** — server setup, configuration, updates, and failure response are your responsibility . Commercial platforms shift hosting and support to the vendor.
-
-- **Patch management is security-critical** — unpatched endpoints are a high-value attack surface. Automox patches 630+ third-party applications automatically ; Linux Central Management provides CVE reporting for Linux fleets .
-
-- **License considerations**: Zabbix uses GPL-2.0, Ansible uses GPL-3.0, OpenUEM uses Apache-2.0, OCO-Agent is open-source, and Sentinella is open-source . Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong monitoring, automation, and endpoint management foundations, but **AI-powered autonomous remediation, managed infrastructure, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+Contributions are warmly welcome! Please open a Pull Request (PR) to add or update entries. Keep descriptions factual and link directly to official project sites or repositories. 🤝
 
 ---
 
+## 📑 Table of Contents
 
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
 
-**Made for system administrators, IT operations engineers, and organizations seeking IT operations sovereignty.**  
+---
 
-Let's make IT operations and systems management more open, transparent, and automated.
+## ☁️ SaaS/Hosted Platforms
+
+> 📈 **Market Overview:** The global IT Operations Management (ITOM) market size is estimated at **$36B–$41B in 2026** (with the broader ITOM software & observability ecosystem exceeding **$50B+**). The market is **highly fragmented**, characterized by low concentration due to numerous specialized vendors in monitoring, RMM, ITSM, and patch automation competing alongside enterprise suites.
+
+| SaaS Product 🏢 | Enterprise Size / Revenue / Valuation 💰 | Starting Tier Pricing 🏷️ | Free Tier / Free Trial Limits 🎁 | Key Features & Focus 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Intune](https://www.microsoft.com/microsoft-intune)** | **$3.93 Trillion** Market Cap | **$8.00 / user / month** (Plan 1, annual) | **30-day free trial** (up to 25 licenses); bundled in M365 E3/E5/Business Premium | Cloud-based endpoint management, device configuration, compliance, and application deployment across Windows, macOS, iOS, Android, and Linux. |
+| **[AWS Systems Manager](https://aws.amazon.com/systems-manager/)** | **$128.7 Billion** AWS Revenue (2025) | Core management features **$0 (Included with AWS)**; Automation **$0.0025 / step** | Core features (Run Command, Patch Manager, Session Manager) **free forever** for AWS nodes; **Parameter Store 20k free requests / month** | AWS unified operations platform to view, patch, and automate AWS and hybrid cloud infrastructure at scale. |
+| **[ServiceNow ITOM](https://www.servicenow.com/products/it-operations-management.html)** | **$141.65 Billion** Market Cap (~$13.28B Revenue) | **~$0.50 – $1.50 / monitored node / month** (or ~$100–$200 / user / month for full suites) | **No public self-service trial** (Developer Instance available with execution rate limits) | Enterprise ITOM standard with AIOps event management, dynamic service mapping (CSDM), discovery, and change impact analysis. |
+| **[Datadog](https://www.datadoghq.com/)** | **$99.0 Billion** Market Cap (~$3.43B Revenue) | **$15.00 / host / month** (Infrastructure, annual) | **14-day free trial** (Full feature access, unlimited hosts during trial); Free tier up to 5 hosts | Cloud observability and security platform providing infrastructure monitoring, APM, log management, and real-time alerting. |
+| **[NinjaOne](https://www.ninjaone.com/)** | **$12.3 Billion** Valuation (~$600M ARR) | **~$1.50 – $3.75 / endpoint / month** (50-device minimum, billed annually) | **14-day free trial** (Full feature access) | Unified IT operations platform combining RMM, patch management, endpoint backup, and remote control in a single console. |
+| **[Tanium Autonomous IT Platform](https://www.tanium.com/)** | **$9.0 Billion** Valuation (~$700M ARR) | **~$2.00 – $5.00 / endpoint / month** (Enterprise custom quote) | **No public free trial** (Guided POC / Demo available upon request) | Real-time endpoint management and security powered by Linear Chain Architecture querying millions of endpoints peer-to-peer in seconds. |
+| **[Ivanti Neurons](https://www.ivanti.com/)** | **~$2.0 Billion** Valuation (~$690M Revenue) | **~$90.00 / device / year** (~$7.50 / device / month) | **No public self-service free trial** (Sales demo / POC on request) | ITSM and Unified Endpoint Management (UEM) offering service catalog automation, asset management, and endpoint self-healing. |
+| **[Automox](https://www.automox.com/)** | **$666 Million** Valuation (~$50M–$73M Revenue) | **$1.00 / endpoint / month** (Patch OS, annual commitment) | **15-day free trial** (Unlimited endpoints during trial) | Cloud-native IT patch automation platform for Windows, macOS, and Linux patching 630+ third-party applications without VPN. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below is a curated list of top open-source IT operations, monitoring, endpoint management, remote access, and configuration automation tools sorted by GitHub star count. ✨
+
+| Project 📦 | Stars ⭐ | Description & Key Focus 🛠️ |
+| :--- | :--- | :--- |
+| **[Ansible](https://github.com/ansible/ansible)** | [![Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers) | **Agentless IT automation & configuration management** standard (GPL-3.0). Automates system provisioning, app deployment, and configuration state preservation across large infrastructure fleets. |
+| **[etcd](https://github.com/etcd-io/etcd)** | [![Stars](https://img.shields.io/github/stars/etcd-io/etcd?style=social&color=white)](https://github.com/etcd-io/etcd/stargazers) | **Distributed reliable key-value store** (Apache-2.0). Provides strongly consistent configuration state management and service discovery for distributed systems and Kubernetes clusters. |
+| **[1Panel](https://github.com/1Panel-dev/1Panel)** | [![Stars](https://img.shields.io/github/stars/1Panel-dev/1Panel?style=social&color=white)](https://github.com/1Panel-dev/1Panel/stargazers) | **Modern open-source Linux server management panel** (GPL-3.0). Provides a web-based GUI for container management (Docker), web site deployment, database management, and system monitoring. |
+| **[Consul](https://github.com/hashicorp/consul)** | [![Stars](https://img.shields.io/github/stars/hashicorp/consul?style=social&color=white)](https://github.com/hashicorp/consul/stargazers) | **Service networking & configuration platform** (BSL-1.1). Enables service discovery, health checking, traffic management, and automated network security policy enforcement across multi-cloud environments. |
+| **[Cockpit](https://github.com/cockpit-project/cockpit)** | [![Stars](https://img.shields.io/github/stars/cockpit-project/cockpit?style=social&color=white)](https://github.com/cockpit-project/cockpit/stargazers) | **Web-based graphical interface for Linux servers** (LGPL-2.1). Allows sysadmins to manage storage, inspect logs, configure network settings, manage containers, and control systemd services in a browser. |
+| **[Puppet](https://github.com/puppetlabs/puppet)** | [![Stars](https://img.shields.io/github/stars/puppetlabs/puppet?style=social&color=white)](https://github.com/puppetlabs/puppet/stargazers) | **Infrastructure as Code and configuration management engine** (Apache-2.0). Enforces desired system states automatically across enterprise node fleets. |
+| **[MeshCentral](https://github.com/Ylianst/MeshCentral)** | [![Stars](https://img.shields.io/github/stars/Ylianst/MeshCentral?style=social&color=white)](https://github.com/Ylianst/MeshCentral/stargazers) | **Complete web-based remote monitoring and management platform** (Apache-2.0). Provides remote desktop control, terminal access, file transfer, and Wake-on-LAN for Windows, macOS, Linux, and mobile devices. |
+| **[GLPI](https://github.com/glpi-project/glpi)** | [![Stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers) | **Free Asset and IT Management Software package** (GPL-3.0). Features an ITIL Service Desk, license tracking, software auditing, financial tracking, and a self-service portal. |
+| **[pfSense CE](https://github.com/pfsense/pfsense)** | [![Stars](https://img.shields.io/github/stars/pfsense/pfsense?style=social&color=white)](https://github.com/pfsense/pfsense/stargazers) | **Free open-source firewall & router distribution** based on FreeBSD (Apache-2.0). Features traffic shaping, VPN gateway capabilities, stateful inspection, and web console management. |
+| **[OPNsense](https://github.com/opnsense/core)** | [![Stars](https://img.shields.io/github/stars/opnsense/core?style=social&color=white)](https://github.com/opnsense/core/stargazers) | **Hardened FreeBSD-based security and firewall platform** (BSD-2-Clause). Includes inline intrusion prevention, VPN server support, traffic management, and modern UI. |
+| **[defguard](https://github.com/DefGuard/defguard)** | [![Stars](https://img.shields.io/github/stars/DefGuard/defguard?style=social&color=white)](https://github.com/DefGuard/defguard/stargazers) | **Enterprise WireGuard VPN & Identity Provider** (Apache-2.0). Combines secure remote network access with multi-factor authentication (MFA/2FA), SSO, and desktop/mobile client management. |
+| **[Zabbix](https://github.com/zabbix/zabbix)** | [![Stars](https://img.shields.io/github/stars/zabbix/zabbix?style=social&color=white)](https://github.com/zabbix/zabbix/stargazers) | **Enterprise-class open-source monitoring platform** (GPL-2.0). Provides real-time network, server, virtual machine, container, and cloud service monitoring with threshold alerting and visualization. |
+| **[iTop](https://github.com/Combodo/iTop)** | [![Stars](https://img.shields.io/github/stars/Combodo/iTop?style=social&color=white)](https://github.com/Combodo/iTop/stargazers) | **ITIL web-based service management & CMDB tool** (AGPL-3.0). Connects applications, middleware, hardware, and networks in a connected topology graph with impact analysis. |
+| **[OpenUEM](https://github.com/open-uem/openuem-console)** | [![Stars](https://img.shields.io/github/stars/open-uem/openuem-console?style=social&color=white)](https://github.com/open-uem/openuem-console/stargazers) | **Self-hosted Unified Endpoint Manager** (Apache-2.0). Manages IT asset inventories, deploys software (WinGet/Flatpak), and delivers remote desktop assistance for Windows and Linux fleets. |
+| **[OCO-Agent](https://github.com/schorschii/oco-agent)** | [![Stars](https://img.shields.io/github/stars/schorschii/oco-agent?style=social&color=white)](https://github.com/schorschii/oco-agent/stargazers) | **Self-hosted desktop & server inventory and deployment agent** (GPL-3.0). Handles policy management, logon overview, and cross-platform endpoint orchestration. |
+| **[Sentinella](https://pypi.org/project/sentinella-monitor/)** | N/A (PyPI package) | **Cross-platform system monitor with TUI & web dashboard** (MIT). Monitors host CPU, RAM, disk, network, and Docker/LXC containers over secure WebSockets. |
+
+---
+
+## 🤝 How to Contribute
+
+1. **Fork** the repository. 🍴
+2. **Add/edit** entries in `README.md` following the tabular format. 📝
+3. **Include**: name, official link, detailed description, pricing/licensing, and key features. 🔍
+4. **Submit a Pull Request (PR)** with a clear explanation of your additions. 🚀
+
+If you find this list helpful, please consider **starring 🌟** the repository to support the project and help others discover it!
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a **community-curated** resource list for educational and technical reference purposes.
+- IT operations platforms handle privileged infrastructure access. Self-hosted solutions require proper security hardening, firewalls, role-based access control (RBAC), and compliance auditing.
+- **Open-source responsibility**: Managing self-hosted tools requires dedicated operational resources for hosting, database maintenance, and security updates.
+- **License compliance**: Always check specific software licenses (GPL, Apache-2.0, BSL, AGPL) prior to enterprise deployment.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and using **Awesome IT Operations & Systems Management**! 💙
+
+If this project has saved you time or helped in your systems architecture design:
+- 🌟 **Star** this repository on GitHub.
+- 🔄 **Share** it with fellow system administrators, DevOps engineers, and IT operations teams.
+- ☕ **Sponsor** the project or buy us a coffee via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+Your support keeps this curated ecosystem up-to-date and thriving! 🙌
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-IT-Operations-Systems-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-IT-Operations-Systems-Management&type=date&legend=top-left)
+
+---
+
+**Made with ❤️ for system administrators, IT operations engineers, and open-source advocates.**  
+*Empowering transparent, sovereign, and automated IT operations worldwide.* ✨

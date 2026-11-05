@@ -50,6 +50,8 @@ Contributions are warmly welcome! Please open a Pull Request (PR) to add or upda
 | **[Tanium Autonomous IT Platform](https://www.tanium.com/)** | **$9.0 Billion** Valuation (~$700M ARR) | **~$2.00 – $5.00 / endpoint / month** (Enterprise custom quote) | **No public free trial** (Guided POC / Demo available upon request) | Real-time endpoint management and security powered by Linear Chain Architecture querying millions of endpoints peer-to-peer in seconds. |
 | **[Ivanti Neurons](https://www.ivanti.com/)** | **~$2.0 Billion** Valuation (~$690M Revenue) | **~$90.00 / device / year** (~$7.50 / device / month) | **No public self-service free trial** (Sales demo / POC on request) | ITSM and Unified Endpoint Management (UEM) offering service catalog automation, asset management, and endpoint self-healing. |
 | **[Automox](https://www.automox.com/)** | **$666 Million** Valuation (~$50M–$73M Revenue) | **$1.00 / endpoint / month** (Patch OS, annual commitment) | **15-day free trial** (Unlimited endpoints during trial) | Cloud-native IT patch automation platform for Windows, macOS, and Linux patching 630+ third-party applications without VPN. |
+| **[Stackroom](https://stackroom.io/)** | Not publicly disclosed | **$0/month (Free); $35/month (Starter)** | **Free Forever plan available** | Physical IT asset management SaaS for equipment inventory, employee assignments, custody tracking, QR/barcode identification, and equipment returns. |
+
 
 ---
 
